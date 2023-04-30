@@ -1,15 +1,15 @@
 package app.discount.discountPolicy;
 
-public class FixedAmountDiscountPolicy {
+public class FixedAmountDiscountPolicy implements DiscountPolicy{
 
-    private int dicountAmount;
+    private int discountAmount;
 
-    public FixedAmountDiscountPolicy(int dicountAmount){
-        this.dicountAmount = dicountAmount;
+    public FixedAmountDiscountPolicy(int discountAmount){
+        this.discountAmount = discountAmount;
     }
 
     public int calculateDiscountedPrice(int price){
-        return price-dicountAmount;
+        return price-discountAmount;
     }
 
 }

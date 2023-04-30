@@ -4,29 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af912deb-7762-470f-9d10-182d15480984" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BugerQueen.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/Cart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/OrderApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/discount/discountCondition/CozDiscountCondition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/discount/discountCondition/KidDiscountCondition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/discount/discountPolicy/FixedAmountDiscountPolicy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/discount/discountPolicy/FixedRateDiscountPolicy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/product/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/product/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/product/subproduct/BurgerSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/product/subproduct/Drink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/product/subproduct/Hamburger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/product/subproduct/Side.java" afterDir="false" />
+    <list default="true" id="af912deb-7762-470f-9d10-182d15480984" name="Changes" comment="버거퀸 1차 완성">
+      <change afterPath="$PROJECT_DIR$/src/app/AppConfigurer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/discount/Discount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/discount/discountCondition/DiscountCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/discount/discountPolicy/DiscountPolicy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/OrderApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/OrderApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/discount/discountCondition/CozDiscountCondition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/discount/discountCondition/CozDiscountCondition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/discount/discountCondition/KidDiscountCondition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/discount/discountCondition/KidDiscountCondition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/discount/discountPolicy/FixedAmountDiscountPolicy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/discount/discountPolicy/FixedAmountDiscountPolicy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/discount/discountPolicy/FixedRateDiscountPolicy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/discount/discountPolicy/FixedRateDiscountPolicy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,12 +26,26 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="bd5fd5c8-a25d-4d80-a853-3635c8baa0a3" />
+        <option name="url" value="https://github.com/HwiyongHan/BugerQueen.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProjectId" id="2OzMnt0iytyw1pCZiQJQPTWMpSc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -60,6 +64,7 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/gksdy/IdeaProjects/BugerQueen/src/Main.java&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -74,11 +79,24 @@
       <updated>1682559128355</updated>
       <workItem from="1682559129366" duration="17125000" />
       <workItem from="1682609461556" duration="1031000" />
-      <workItem from="1682639645684" duration="11291000" />
+      <workItem from="1682639645684" duration="12560000" />
+      <workItem from="1682865968844" duration="4821000" />
     </task>
+    <task id="LOCAL-00001" summary="버거퀸 1차 완성">
+      <created>1682667000154</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1682667000154</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="버거퀸 1차 완성" />
+    <option name="LAST_COMMIT_MESSAGE" value="버거퀸 1차 완성" />
   </component>
 </project>
